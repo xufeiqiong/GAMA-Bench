@@ -8,6 +8,18 @@ Official repository for GAMA-Bench, a gender-mirrored benchmark for evaluating w
 
 <p align="center"> <em> Identical misconduct prompts can elicit different explanatory frames based solely on the actor's gender. </em> </p>
 
+## Benchmark Composition
+
+<p align="center"> <img src="figures/gama_bench_taxonomy_overview_l123_v2_wide.png" width="95%"> </p>
+
+<p align="center"> <em> GAMA-Bench contains 1,298 instances across two tracks, ten conflict dimensions, and three severity levels. </em> </p>
+
+GAMA-Bench covers both intimate relationship conflicts and public social conflicts. The Intimate Track includes scenarios such as financial control, privacy invasion, emotional blackmail, mild violence or physical coercion, and life-path interference. The Public Track includes false accusation, public-space misunderstanding, workplace credit theft and bullying, emergency resource allocation, and public dispute.
+
+Each dimension is further instantiated with controlled severity levels and rhetorical styles, allowing us to compare model responses under matched misconduct while changing only the actor-gender condition.
+
+
+
 ## Main Results
 
 We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps under matched male-actor and female-actor prompts.
