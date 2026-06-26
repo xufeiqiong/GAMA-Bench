@@ -2,9 +2,11 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2606.14068-b31b1b.svg)](https://arxiv.org/abs/2606.14068)
 
-This repository contains the official code for **GAMA-Bench**.
+Official repository for GAMA-Bench, a gender-mirrored benchmark for evaluating whether large language models apply consistent moral, emotional, and behavioral framing standards to the same negative behavior under male-actor and female-actor conditions.
 
-GAMA-Bench is a benchmark designed to evaluate gender-asymmetric moral alignment in large language models through controlled mirrored scenarios. We construct paired prompts that differ only in the gender of the key actor, enabling systematic analysis of whether models apply consistent moral, emotional, and behavioral judgments across gender conditions.
+<p align="center"> <img src="figures/insight.pdf" width="90%"> </p>
+
+<p align="center"> <em> Identical misconduct prompts can elicit different explanatory frames based solely on the actor's gender. </em> </p>
 
 ## Main Results
 
