@@ -24,20 +24,14 @@ We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps u
 
 <table>
   <tr>
-    <td width="50%" align="center">
-      <h3>🔵 Harsher framing toward male actors</h3>
-      <p>
-        More punitive wording, stronger severity escalation,<br>
-        more corrective instruction, and higher full-blame attribution.
-      </p>
-    </td>
-    <td width="50%" align="center">
-      <h3>🟠 More therapeutic framing toward female actors</h3>
-      <p>
-        More empathy, contextualization, mitigation,<br>
-        and relationship-repair oriented explanations.
-      </p>
-    </td>
+    <td align="center"><b>Observed Pattern</b></td>
+    <td align="center"><b>Male-actor condition</b><br><sub>same misconduct, matched context</sub></td>
+    <td align="center"><b>Female-actor condition</b><br><sub>same misconduct, matched context</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Response framing</b></td>
+    <td align="center">🔵 More punitive, corrective, escalatory, and blame-centered</td>
+    <td align="center">🟠 More therapeutic, contextualizing, mitigating, and empathy-oriented</td>
   </tr>
 </table>
 
