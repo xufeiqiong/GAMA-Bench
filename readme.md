@@ -22,7 +22,24 @@ Each dimension is further instantiated with controlled severity levels and rheto
 
 We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps under matched male-actor and female-actor prompts.
 
-> **Key finding.** Across both tracks, LLMs consistently produce harsher, more blame-centered, and more corrective framing for male actors, while assigning more therapeutic and empathy-oriented framing to female actors under the same misconduct.
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <h3>🔵 Harsher framing toward male actors</h3>
+      <p>
+        More punitive wording, stronger severity escalation,<br>
+        more corrective instruction, and higher full-blame attribution.
+      </p>
+    </td>
+    <td width="50%" align="center">
+      <h3>🟠 More therapeutic framing toward female actors</h3>
+      <p>
+        More empathy, contextualization, mitigation,<br>
+        and relationship-repair oriented explanations.
+      </p>
+    </td>
+  </tr>
+</table>
 
 <table>
   <tr>
