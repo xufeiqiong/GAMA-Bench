@@ -2,7 +2,15 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2606.14068-b31b1b.svg)](https://arxiv.org/abs/2606.14068)
 
-<p align="center"> <a href="#benchmark-composition">Benchmark Composition</a> • <a href="#main-results">Main Results</a> • <a href="#intimate-track">Intimate Track</a> • <a href="#public-track">Public Track</a> • <a href="#release-plan">Release Plan</a> • <a href="#citation">Citation</a> • <a href="#contact">Contact</a> </p>
+<p align="center">
+  <a href="#benchmark-composition">🧩 Benchmark Composition</a> •
+  <a href="#main-results">📊 Main Results</a> •
+  <a href="#intimate-track">💞 Intimate Track</a> •
+  <a href="#public-track">🌐 Public Track</a> •
+  <a href="#release-plan">🚀 Release Plan</a> •
+  <a href="#citation">📌 Citation</a> •
+  <a href="#contact">✉️ Contact</a>
+</p>
 
 
 Official repository for GAMA-Bench, a gender-mirrored benchmark for evaluating whether large language models apply consistent moral, emotional, and behavioral framing standards to the same negative behavior under male-actor and female-actor conditions.
@@ -10,6 +18,8 @@ Official repository for GAMA-Bench, a gender-mirrored benchmark for evaluating w
 <p align="center"> <img src="figures/insight.png" width="90%"> </p>
 
 <p align="center"> <em> Identical misconduct prompts can elicit different explanatory frames based solely on the actor's gender. </em> </p>
+
+<a id="benchmark-composition"></a>
 
 ## 🧩 Benchmark Composition
 
@@ -20,6 +30,8 @@ Official repository for GAMA-Bench, a gender-mirrored benchmark for evaluating w
 GAMA-Bench covers both intimate relationship conflicts and public social conflicts. The Intimate Track includes scenarios such as financial control, privacy invasion, emotional blackmail, mild violence or physical coercion, and life-path interference. The Public Track includes false accusation, public-space misunderstanding, workplace credit theft and bullying, emergency resource allocation, and public dispute.
 
 Each dimension is further instantiated with controlled severity levels and rhetorical styles, allowing us to compare model responses under matched misconduct while changing only the actor-gender condition.
+
+<a id="main-results"></a>
 
 ## 📊 Main Results
 
@@ -57,6 +69,8 @@ We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps u
     <td align="center"><b>Full-Bl.</b><br><sub>full-blame attribution</sub></td>
   </tr>
 </table>
+
+<a id="intimate-track"></a>
 
 ### 💞 Intimate Track
 
@@ -166,6 +180,8 @@ We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps u
   </tr>
 </table>
 
+<a id="public-track"></a>
+
 ### 🌐 Public Track
 
 <p>
@@ -274,6 +290,8 @@ We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps u
   </tr>
 </table>
 
+<a id="release-plan"></a>
+
 ## 🚀 Release Plan
 
 We are currently preparing the full release of GAMA-Bench. The repository will include:
@@ -283,6 +301,8 @@ We are currently preparing the full release of GAMA-Bench. The repository will i
 - Model response collection scripts
 - Metric computation code
 - Reproduction instructions
+
+<a id="citation"></a>
 
 ## 📌 Citation
 
@@ -299,6 +319,8 @@ If you find **GAMA-Bench** useful, please cite our paper:
       url={https://arxiv.org/abs/2606.14068}, 
 }
 ```
+
+<a id="contact"></a>
 
 ## ✉️ Contact
 
