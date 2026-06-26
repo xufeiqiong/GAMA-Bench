@@ -22,6 +22,8 @@ Each dimension is further instantiated with controlled severity levels and rheto
 
 We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps under matched male-actor and female-actor prompts.
 
+> **Key finding.** Across both tracks, LLMs consistently produce harsher, more blame-centered, and more corrective framing for male actors, while assigning more therapeutic and empathy-oriented framing to female actors under the same misconduct.
+
 <table>
   <tr>
     <td align="center"><b>Gap</b><br><code>Δ = Female Actor − Male Actor</code></td>
@@ -258,20 +260,15 @@ We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps u
   </tr>
 </table>
 
-## ✅ Status
+## 🚀 Release Plan
 
-We are currently organizing the dataset, evaluation scripts, and documentation.
+We are currently preparing the full release of GAMA-Bench. The repository will include:
 
-The full dataset and official code will be released soon.
-
-## 🚀 Coming Soon
-
-* GAMA-Bench dataset
-* Prompt templates and mirrored scenario construction pipeline
-* Evaluation scripts
-* Model response collection pipeline
-* Metric computation code
-* Reproduction instructions
+- Dataset files
+- Prompt templates and mirrored construction pipeline
+- Model response collection scripts
+- Metric computation code
+- Reproduction instructions
 
 ## 📌 Citation
 
