@@ -1,4 +1,4 @@
-# GAMA-Bench
+# ⚖️ GAMA-Bench
 
 [![arXiv](https://img.shields.io/badge/arXiv-2606.14068-b31b1b.svg)](https://arxiv.org/abs/2606.14068)
 
@@ -8,7 +8,7 @@ Official repository for GAMA-Bench, a gender-mirrored benchmark for evaluating w
 
 <p align="center"> <em> Identical misconduct prompts can elicit different explanatory frames based solely on the actor's gender. </em> </p>
 
-## Benchmark Composition
+## 🧩 Benchmark Composition
 
 <p align="center"> <img src="figures/over.png" width="95%"> </p>
 
@@ -18,9 +18,7 @@ GAMA-Bench covers both intimate relationship conflicts and public social conflic
 
 Each dimension is further instantiated with controlled severity levels and rhetorical styles, allowing us to compare model responses under matched misconduct while changing only the actor-gender condition.
 
-
-
-## Main Results
+## 📊 Main Results
 
 We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps under matched male-actor and female-actor prompts.
 
@@ -44,7 +42,7 @@ We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps u
   </tr>
 </table>
 
-### Intimate Track
+### 💞 Intimate Track
 
 <p>
 <b>Table 1.</b> Model-level gender gaps on the Intimate Track. Percentage-based metrics are reported in percentage points.
@@ -152,7 +150,7 @@ We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps u
   </tr>
 </table>
 
-### Public Track
+### 🌐 Public Track
 
 <p>
 <b>Table 2.</b> Model-level gender gaps on the Public Track. Percentage-based metrics are reported in percentage points.
@@ -260,14 +258,13 @@ We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps u
   </tr>
 </table>
 
-
-## Status
+## ✅ Status
 
 We are currently organizing the dataset, evaluation scripts, and documentation.
 
 The full dataset and official code will be released soon.
 
-## Coming Soon
+## 🚀 Coming Soon
 
 * GAMA-Bench dataset
 * Prompt templates and mirrored scenario construction pipeline
@@ -276,7 +273,7 @@ The full dataset and official code will be released soon.
 * Metric computation code
 * Reproduction instructions
 
-## Citation
+## 📌 Citation
 
 If you find **GAMA-Bench** useful, please cite our paper:
 
@@ -292,6 +289,6 @@ If you find **GAMA-Bench** useful, please cite our paper:
 }
 ```
 
-## Contact
+## ✉️ Contact
 
 For questions or updates, please refer to this repository.
