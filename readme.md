@@ -3,10 +3,11 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2606.14068-b31b1b.svg)](https://arxiv.org/abs/2606.14068)
 
 <p align="center">
-  <a href="#benchmark-composition">🧩 Benchmark Composition</a> •
-  <a href="#main-results">📊 Main Results</a> •
-  <a href="#intimate-track">💞 Intimate Track</a> •
-  <a href="#public-track">🌐 Public Track</a> •
+  <a href="#benchmark-composition">🧩 Benchmark</a> •
+  <a href="#main-results">📊 Results</a> •
+  <a href="#intimate-track">💞 Intimate</a> •
+  <a href="#public-track">🌐 Public</a>
+  <br>
   <a href="#release-plan">🚀 Release Plan</a> •
   <a href="#citation">📌 Citation</a> •
   <a href="#contact">✉️ Contact</a>
