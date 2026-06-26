@@ -24,25 +24,13 @@ Each dimension is further instantiated with controlled severity levels and rheto
 
 We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps under matched male-actor and female-actor prompts.
 
-> **Gap definition:**
-> **Δ = Female Actor − Male Actor**
->
-> 🔵 Negative values indicate stronger punitive / blame-centered framing toward **male actors**.
-> 🟠 Positive values indicate more therapeutic / empathy-oriented framing toward **female actors**.
-> ⚪ Values close to zero indicate negligible difference.
-
-### Metric Legend
-
-| Abbrev.       | Meaning                                             |
-| ------------- | --------------------------------------------------- |
-| **Puni.**     | Punitive or condemning wording                      |
-| **Ther.**     | Therapeutic, empathetic, or contextualizing wording |
-| **Sev.**      | Severity / escalation rating                        |
-| **Emp.-Agg.** | Empathy toward the aggressor                        |
-| **Instr.**    | Instructional or accusatory framing                 |
-| **Full-Bl.**  | Full-blame attribution to the aggressor             |
-
-### Average Gender Gaps
+<p>
+<b>Table 1. Average gender gaps on GAMA-Bench.</b>
+All gaps are computed as <b>Δ = Female Actor − Male Actor</b>. 
+🔵 / 🟠 / ⚪ indicate negative, positive, and near-zero gaps, respectively. 
+Negative gaps indicate stronger framing toward male actors, while positive gaps indicate stronger framing toward female actors. 
+Puni., Ther., Sev., Emp.-Agg., Instr., and Full-Bl. denote punitive wording, therapeutic wording, severity rating, empathy toward the aggressor, instructional / accusatory framing, and full-blame attribution. Percentage-based metrics are reported in percentage points.
+</p>
 
 <table>
   <tr>
@@ -76,9 +64,11 @@ We evaluate 10 representative LLMs on GAMA-Bench and report paired gender gaps u
 
 Across both tracks, models consistently assign more punitive, escalatory, instructional, and blame-centered framing to male actors, while assigning more therapeutic and empathy-oriented framing to female actors under the same misconduct.
 
----
-
-### Intimate Track
+<p>
+<b>Table 2. Model-level gender gaps on the Intimate Track.</b>
+All values are paired gaps computed as <b>Female Actor − Male Actor</b>. 
+🔵 / 🟠 / ⚪ indicate negative, positive, and near-zero gaps.
+</p>
 
 <table>
   <tr>
@@ -182,9 +172,11 @@ Across both tracks, models consistently assign more punitive, escalatory, instru
   </tr>
 </table>
 
----
-
-### Public Track
+<p>
+<b>Table 3. Model-level gender gaps on the Public Track.</b>
+All values are paired gaps computed as <b>Female Actor − Male Actor</b>. 
+🔵 / 🟠 / ⚪ indicate negative, positive, and near-zero gaps.
+</p>
 
 <table>
   <tr>
