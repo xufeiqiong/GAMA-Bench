@@ -16,7 +16,7 @@
 
 Official repository for GAMA-Bench, a gender-mirrored benchmark for evaluating whether large language models apply consistent moral, emotional, and behavioral framing standards to the same negative behavior under male-actor and female-actor conditions.
 
-<p align="center"> <img src="figures/insight.png" width="90%"> </p>
+<p align="center"> <img src="figures/over.png" width="90%"> </p>
 
 <p align="center"> <em> Identical misconduct prompts can elicit different explanatory frames based solely on the actor's gender. </em> </p>
 
@@ -24,7 +24,7 @@ Official repository for GAMA-Bench, a gender-mirrored benchmark for evaluating w
 
 ## 🧩 Benchmark Composition
 
-<p align="center"> <img src="figures/over.png" width="95%"> </p>
+<p align="center"> <img src="figures/gama_bench_taxonomy_reference_style.png" width="95%"> </p>
 
 <p align="center"> <em> GAMA-Bench contains 1,298 instances across two tracks, ten conflict dimensions, and three severity levels. </em> </p>
 
